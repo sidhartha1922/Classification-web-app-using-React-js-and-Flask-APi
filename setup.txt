@@ -1,6 +1,6 @@
 1)install Python3,node & yarn
  
-2)Start by opening either of the two files ui/backend.
+2)Start by opening either of the two folders ui/backend.
  
 
 inside ui folder:
