@@ -1,0 +1,24 @@
+1)install Python3,node & yarn
+ 
+2)Start by opening either of the two files ui/backend.
+ 
+
+inside ui folder:
+-> open command prompt
+-> yarn install (can use npm install)
+-> npm install -g serve (only needed once)
+-> npm run build
+-> serve -s build -l 3000
+
+
+## This starts the react webpage 
+
+
+inside backend folder:
+-> open command prompt
+-> pip install -r requirements.txt  (might take some time)
+-> set FLASK_APP=app
+-> flask run
+
+
+## This starts the Flask backend.     
