@@ -19,27 +19,21 @@ Ensure you have the following installed:
 
 ## Setting up the Project
 
-### UI Setup
-
-1. Navigate to the `ui` folder:  
-   ```bash
-   cd ui
-   ```
-2. Install dependencies:  
+1. Install dependencies:  
    ```bash
    yarn install
    ```
    *(You can also use `npm install` if Yarn is unavailable.)*  
 
-3. Install the `serve` package globally (only required once):  
+2. Install the `serve` package globally (only required once):  
    ```bash
    npm install -g serve
    ```
-4. Build the project:  
+3. Build the project:  
    ```bash
    npm run build
    ```
-5. Serve the React webpage:  
+4. Serve the React webpage:  
    ```bash
    serve -s build -l 3000
    ```
@@ -48,24 +42,18 @@ The React webpage will now be available at `http://localhost:3000`.
 
 ---
 
-### Backend Setup
-
-1. Navigate to the `backend` folder:  
-   ```bash
-   cd backend
-   ```
-2. Install the required Python dependencies:  
+5. Install the required Python dependencies:  
    ```bash
    pip install -r requirements.txt
    ```
    *(This step may take some time.)*  
 
-3. Set the Flask application environment variable:  
+6. Set the Flask application environment variable:  
    ```bash
    set FLASK_APP=app
    ```
 
-4. Start the Flask backend server:  
+7. Start the Flask backend server:  
    ```bash
    flask run
    ```
